@@ -8,6 +8,12 @@ func main() {
 
 	languages := make(map[string]string)
 
+	name := "surya"
+	names := make(map[string]int)
+
+	t := string(name[1])
+	names[t] = 23
+
 	languages["Go"] = "Go"
 	languages["Jv"] = "Java"
 	languages["Py"] = "Python"

@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"sort"
+	"strings"
 )
 
 func main() {
@@ -55,5 +56,13 @@ func main() {
 	fmt.Println("Total numbers : ", len(newNames))
 
 	fmt.Println("No of persons removed : ", len(namesList)-len(newNames))
+
+	// Testing
+
+	var name string
+
+	name = "surya"
+
+	name = strings.ToLower(name)
 
 }

@@ -21,14 +21,19 @@ func main() {
 		switch diceNumber {
 		case 1:
 			fmt.Println("dice number is 1")
+			fallthrough
 		case 2:
 			fmt.Println("dice number is 2")
+			fallthrough
 		case 3:
 			fmt.Println("dice number is 3")
+			fallthrough
 		case 4:
 			fmt.Println("dice number is 4")
+			fallthrough
 		case 5:
 			fmt.Println("dice number is 5")
+			fallthrough
 		case 6:
 			fmt.Println("dice number is 6")
 			isBool = false
